@@ -1,0 +1,254 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cotainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.calculator{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #424242;
+	padding-left: 30%;
+}
+
+#logo{
+	height: 117px;
+	width: 117px;
+	margin-top: 92px;
+}
+
+
+.input{
+	padding-top: 74px;
+	padding-left: 97px;
+}
+.input p{
+	font-size:18px;
+	font-family: AppleSystemUIFont;
+	color: #FFD366;
+}
+
+.text{
+
+	font-size: 24px;
+	font-family: SFNSDisplay;
+	color: rgba(255,255,255,0.50);
+	display: block;
+	width: 250px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid #FFD366;
+	margin-bottom: 48px;
+	background-color: transparent;
+	
+}
+
+.btn{
+	display: flex;
+	padding-top: 100px;
+	padding-left: 53px;
+}
+
+.button{
+	display: block;
+	text-align: center;
+	line-height: 120px;
+	font-size: 24px;
+	font-family: PingFangTC-Regular;
+	text-decoration: none;
+	color: #424242;
+	width: 120px;
+	height: 120px;
+	background-color: #FFD366;
+	border-radius: 60px;
+
+}
+
+.button:hover{
+	background: #FFD366;
+	box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64);
+}
+
+.button:active{
+	background: #DEA821;
+}
+
+.newBtn{
+	display: none;
+	height: 111px;
+	width: 111px;
+	border: 6px solid;
+	-webkit-border-radius: 100px;
+	
+}
+
+#reset{
+	width: 23px;
+	height: 23px;
+	margin-left: 85px;
+	border-radius: 60px;
+}
+
+.result{
+	display: block;
+	font-size: 32px;
+	font-family: SFNSDisplay;
+	line-height: 38px;
+	width: 86px;
+	height: 32px;
+	margin-left: 18px;
+	margin-top: 35px;
+}
+
+.BMI{
+	display: block;
+	font-size: 14px;
+	font-family: AppleSystemUIFont;
+	margin-left: 42px;
+}
+
+.rank p{
+	display: none;
+	margin-top: 37;
+	margin-left: 18px;
+	font-family: SFNSDisplay;
+	font-size: 32px;
+}
+
+
+.history{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #dadada;
+	padding-top: 36px;
+	padding-bottom: 58px;
+
+}
+
+#label{
+	display: block;
+	padding-top: 48px;
+	font-family: SFNSDisplay;
+	font-size: 24px;
+	text-align: center;
+	background-color: #dadada;
+}
+
+.historyReslult{
+	display: none;
+	line-height: 62px;
+	width: 618px;
+	height: 62px;
+	background: #FFFFFF;
+	margin-bottom: 16px;
+}
+
+.historyReslult div{
+	display: flex;
+	color: #4A4A4A;
+}
+
+.pRank{
+	margin-left: 12px;
+}
+
+.pBMI{
+	width: 81px;
+	margin-left: 70px;
+}
+
+.pWeight{
+	width: 92px;
+	margin-left: 42px;
+}
+
+.pHeight{
+	width: 107px;
+	margin-left: 42px;
+}
+
+.pDate{
+	width: 68px;
+	height: 15px;
+	margin-left: 52px;
+}
+
+
+
+
+
+#label a{
+	height: 100px;
+	width: 100px;
+	background-color: rgb(153, 28, 101);
+	border-radius: 10px;
+}
+
+.historyReslult div span{
+	font-family: SFNSDisplay;
+	font-size: 20px;
+	color: #4A4A4A;
+	margin-left: 7px;
+}
+
+.footer{
+	display: flex;
+	height: 90px;
+	background-color: #FFD366;
+	
+}
+
+.footer img{
+	display: block;
+	width: 55px;
+	height: 55px;
+	filter: invert(70%);
+	margin: auto;
+}
+

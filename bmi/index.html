@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+            <div class="calculator">
+                <div>
+                    <img src="pic/BMICLogo.png" alt="logo" id="logo">
+                </div>
+            
+
+                <div class="input">
+                    <div>
+                        <p>身高 cm</p>
+                        <input type="text" id ="heightText" class="text" placeholder=" 請輸入身高">
+                    </div>
+                    <div>
+                        <p>體重 kg</p>
+                        <input type="text" id ="weightText" class="text" placeholder=" 請輸入體重">
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <a href="#" class="button">看結果</a>
+                    <div class="newBtn">
+                        <p class="result"></p>
+                        <p class="BMI">BMI</p>
+                        <img src="pic/icons_loop.png" alt="reset" id="reset">
+                    </div>
+
+                    <div class="rank">
+                        <p></p>
+                    </div>
+                </div>
+
+                
+            </div>
+            
+            <div id='label'>
+                <p>BMI紀錄</p>
+                <a>clear</a>
+            </div>
+
+            <div class="history">
+            </div>
+
+
+
+            <div class="footer">
+                <img src="pic/BMICLogo.png" alt="logo">
+            </div>
+
+            <div class="historyReslult" data-num ='0'>
+                <div class="pRank"><span>結果</span></div>
+                <div class="pBMI"><div class="label">BMI</div><span>20.90</span></div>
+                <div class="pWeight"><div class="label">weight</div><span>70kg</span></div>
+                <div class="pHeight"><div class="label">height</div><span>1800cm</span></div>
+                <div class="pDate"><div class="label">01-01-2020</div></div>
+            </div>
+
+            
+    </div>
+    <script src="all.js"></script>
+</body>
+</html>
